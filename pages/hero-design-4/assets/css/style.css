@@ -5,19 +5,20 @@
 
 .container{
     display: grid;
-    grid-template-rows: 60px 400px;
+    grid-template-rows: 60px 350px 350px;
 }
 
 .header{
     grid-row: 1;
     display: flex;
-    margin-top: 10px;
     column-gap: 15px;
+    background-color: wheat;
 }
 
 
 .header #hero{
     margin-left: 20px;
+    
 }
 
 .header #hero button{
@@ -30,6 +31,7 @@
 .header button{
     opacity: 50%;
     border: none;
+    margin-top: 10px;
 }
 
 .header button:hover{
@@ -86,4 +88,57 @@
     font-weight: 600;
     font-style: normal;
     font-variation-settings:"slnt" 0;
+}
+
+.hero-3{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    grid-row: 2;
+    background-color: wheat;
+}
+
+.hero-3 #text{
+    margin-top: 40px;
+    row-gap: 5px;
+}
+
+.hero-3 #text h1{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.hero-3 #text #buttons{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    padding-top: 10px;
+}
+
+.hero-3 #text #buttons button{
+    padding: 15px 30px 15px 30px;
+    background: none;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-3 #text #buttons p{
+    padding-left: 10px;
+}
+
+.hero-3 #image img{
+    width: 300px;
+    height: 450px;
+    margin-top: 30px;
+    outline: 3px solid white;
+}
+
+.hero-3 #image{
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
 }
