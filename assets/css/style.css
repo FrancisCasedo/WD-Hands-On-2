@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(255,198,66);
+    background-color: rgba(128, 0, 128, 0.418)
 }
 
 .container{
@@ -23,7 +23,7 @@ body{
 
 .middle #Text h1{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: aliceblue;
+    color: rgba(128, 0, 128, 0.418);
     font-size: 50px;
     margin-left: 35px;
     padding-top: 30px;
@@ -44,7 +44,7 @@ body{
 
 .middle #Text #description p{
     font-size: 20px;
-    color: rgb(255,198,66);
+    color: white;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -63,7 +63,6 @@ body{
 
 .middle #buttons button{
     border-radius: 25px;
-    background-color: rgb(255,198,66);
     outline: 1px solid rgb(122,106,104);
 }
 
@@ -80,5 +79,5 @@ body{
     font-size: 12px;
     padding: 6px 25px 6px 25px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(122,106,104);
+    color: rgba(128, 0, 128, 0.418);
 }
